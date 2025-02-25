@@ -1,0 +1,12 @@
+[package]
+name = "mdex"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+toml = "*"
+tokio = "1"
+iceberg = { git = "https://github.com/apache/iceberg-rust.git" }
+iceberg-catalog-glue = { git = "https://github.com/apache/iceberg-rust.git" }
+clap = { version = "4.5.31", features = ["derive"] }
