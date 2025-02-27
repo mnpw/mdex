@@ -1710,7 +1710,7 @@ dependencies = [
 [[package]]
 name = "iceberg"
 version = "0.4.0"
-source = "git+https://github.com/apache/iceberg-rust.git#e4b2810f4c0c6bb6df27f65c6718d04877c03373"
+source = "git+https://github.com/mnpw/iceberg-rust.git?branch=manifestmetadata-accessors#ff1e2820bc0a8088ecee02287e3cce3477e5831f"
 dependencies = [
  "anyhow",
  "apache-avro",
@@ -1759,7 +1759,7 @@ dependencies = [
 [[package]]
 name = "iceberg-catalog-glue"
 version = "0.4.0"
-source = "git+https://github.com/apache/iceberg-rust.git#e4b2810f4c0c6bb6df27f65c6718d04877c03373"
+source = "git+https://github.com/mnpw/iceberg-rust.git?branch=manifestmetadata-accessors#ff1e2820bc0a8088ecee02287e3cce3477e5831f"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -2165,6 +2165,7 @@ dependencies = [
 name = "mdex"
 version = "0.1.0"
 dependencies = [
+ "chrono",
  "clap",
  "iceberg",
  "iceberg-catalog-glue",
